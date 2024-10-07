@@ -1,0 +1,282 @@
+[
+  {
+    "id": "1",
+    "name": "Clever fit Murska Sobota",
+    "location": "Lendavska ulica 29d, 9000 Murska Sobota",
+    "latLong": [
+      46.666580,
+      16.168620
+    ],
+    "openingTimes": {
+      "monday": "06:00 - 24:00",
+      "tuesday": "06:00 - 24:00",
+      "wednesday": "06:00 - 24:00",
+      "thursday": "06:00 - 24:00",
+      "friday": "06:00 - 24:00",
+      "saturday": "06:00 - 24:00",
+      "sunday": "06:00 - 24:00"
+    },
+    "equipment": [
+      "Cardio machines",
+      "Free weights",
+      "Machines",
+      "Calisthenics"
+    ],
+    "offers": [
+      "Free Trial",
+      "Daily Pass",
+      "Basic Annual Membership",
+      "All in Monthly Membership",
+      "Personal Trainers"
+    ],
+    "discounts": {
+      "Annual Membership": "20%",
+      "Student Discount": "15%"
+    }
+  },
+  {
+    "id": "2",
+    "latLong": [
+      46.552490,
+      15.627900
+    ],
+    "name": "Clever fit Maribor",
+    "location": "Na Poljanah 18, 2000 Maribor",
+    "openingTimes": {
+      "monday": "06:00 - 24:00",
+      "tuesday": "06:00 - 24:00",
+      "wednesday": "06:00 - 24:00",
+      "thursday": "06:00 - 24:00",
+      "friday": "06:00 - 24:00",
+      "saturday": "06:00 - 24:00",
+      "sunday": "06:00 - 24:00"
+    },
+    "equipment": [
+      "Cardio machines",
+      "Free weights",
+      "Machines",
+      "Calisthenics"
+    ],
+    "offers": [
+      "Free Trial",
+      "Daily Pass",
+      "Basic Annual Membership",
+      "All in Monthly Membership",
+      "Personal Trainers"
+    ],
+    "discounts": {
+      "Annual Membership": "20%",
+      "Student Discount": "15%"
+    }
+  },
+  {
+    "id": "3",
+    "latLong": [
+      46.146440,
+      14.597090
+    ],
+    "name": "Clever fit Domžale",
+    "location": "Breznikova ulica 17, 1230 Domžale",
+    "openingTimes": {
+      "monday": "06:00 - 24:00",
+      "tuesday": "06:00 - 24:00",
+      "wednesday": "06:00 - 24:00",
+      "thursday": "06:00 - 24:00",
+      "friday": "06:00 - 24:00",
+      "saturday": "06:00 - 24:00",
+      "sunday": "06:00 - 24:00"
+    },
+    "equipment": [
+      "Cardio machines",
+      "Free weights",
+      "Machines",
+      "Calisthenics"
+    ],
+    "offers": [
+      "Free Trial",
+      "Daily Pass",
+      "Basic Annual Membership",
+      "All in Monthly Membership",
+      "Personal Trainers"
+    ],
+    "discounts": {
+      "Annual Membership": "20%",
+      "Student Discount": "15%"
+    }
+  },
+  {
+    "id": "4",
+    "latLong": [
+      46.061409,
+      14.540720
+    ],
+    "name": "Clever fit Ljubljana Letališka",
+    "location": "Letališka cesta 1, 1000 Ljubljana",
+    "openingTimes": {
+      "monday": "06:00 - 24:00",
+      "tuesday": "06:00 - 24:00",
+      "wednesday": "06:00 - 24:00",
+      "thursday": "06:00 - 24:00",
+      "friday": "06:00 - 24:00",
+      "saturday": "06:00 - 24:00",
+      "sunday": "06:00 - 24:00"
+    },
+    "equipment": [
+      "Cardio machines",
+      "Free weights",
+      "Machines",
+      "Calisthenics"
+    ],
+    "offers": [
+      "Free Trial",
+      "Daily Pass",
+      "Basic Annual Membership",
+      "All in Monthly Membership",
+      "Personal Trainers"
+    ],
+    "discounts": {
+      "Annual Membership": "20%",
+      "Student Discount": "15%"
+    }
+  },
+  {
+    "id": "5",
+    "latLong": [
+      46.07624,
+      14.51082
+    ],
+    "name": "Clever fit Ljubljana Tiskarna Bežigrad",
+    "location": "Dunajska cesta 123, 1000 Ljubljana",
+    "openingTimes": {
+      "monday": "06:00 - 24:00",
+      "tuesday": "06:00 - 24:00",
+      "wednesday": "06:00 - 24:00",
+      "thursday": "06:00 - 24:00",
+      "friday": "06:00 - 24:00",
+      "saturday": "06:00 - 24:00",
+      "sunday": "06:00 - 24:00"
+    },
+    "equipment": [
+      "Cardio machines",
+      "Free weights",
+      "Machines",
+      "Calisthenics"
+    ],
+    "offers": [
+      "Free Trial",
+      "Daily Pass",
+      "Basic Annual Membership",
+      "All in Monthly Membership",
+      "Personal Trainers"
+    ],
+    "discounts": {
+      "Annual Membership": "20%",
+      "Student Discount": "15%"
+    }
+  },
+  {
+    "id": "6",
+    "latLong": [
+      46.05967,
+      14.51841
+    ],
+    "name": "Clever fit Ljubljana Situla",
+    "location": "Vilharjeva cesta 36, 1000 Ljubljana",
+    "openingTimes": {
+      "monday": "06:00 - 24:00",
+      "tuesday": "06:00 - 24:00",
+      "wednesday": "06:00 - 24:00",
+      "thursday": "06:00 - 24:00",
+      "friday": "06:00 - 24:00",
+      "saturday": "06:00 - 24:00",
+      "sunday": "06:00 - 24:00"
+    },
+    "equipment": [
+      "Cardio machines",
+      "Free weights",
+      "Machines",
+      "Calisthenics"
+    ],
+    "offers": [
+      "Free Trial",
+      "Daily Pass",
+      "Basic Annual Membership",
+      "All in Monthly Membership",
+      "Personal Trainers"
+    ],
+    "discounts": {
+      "Annual Membership": "20%",
+      "Student Discount": "15%"
+    }
+  },
+  {
+    "id": "7",
+    "latLong": [
+      46.08371,
+      14.48082
+    ],
+    "name": "Clever fit Ljubljana Šiška",
+    "location": "Bravničarjeva ulica 18, 1000 Ljubljana",
+    "openingTimes": {
+      "monday": "06:00 - 24:00",
+      "tuesday": "06:00 - 24:00",
+      "wednesday": "06:00 - 24:00",
+      "thursday": "06:00 - 24:00",
+      "friday": "06:00 - 24:00",
+      "saturday": "06:00 - 24:00",
+      "sunday": "06:00 - 24:00"
+    },
+    "equipment": [
+      "Cardio machines",
+      "Free weights",
+      "Machines",
+      "Calisthenics"
+    ],
+    "offers": [
+      "Free Trial",
+      "Daily Pass",
+      "Basic Annual Membership",
+      "All in Monthly Membership",
+      "Personal Trainers"
+    ],
+    "discounts": {
+      "Annual Membership": "20%",
+      "Student Discount": "15%"
+    }
+  },
+  {
+    "id": "8",
+    "latLong": [
+      46.23666,
+      14.37337
+    ],
+    "name": "Clever fit Kranj",
+    "location": "Cesta Jaka Platiše 18, 4000 Kranj",
+    "openingTimes": {
+      "monday": "06:00 - 24:00",
+      "tuesday": "06:00 - 24:00",
+      "wednesday": "06:00 - 24:00",
+      "thursday": "06:00 - 24:00",
+      "friday": "06:00 - 24:00",
+      "saturday": "06:00 - 24:00",
+      "sunday": "06:00 - 24:00"
+    },
+    "equipment": [
+      "Cardio machines",
+      "Free weights",
+      "Machines",
+      "Calisthenics"
+    ],
+    "offers": [
+      "Free Trial",
+      "Daily Pass",
+      "Basic Annual Membership",
+      "All in Monthly Membership",
+      "Personal Trainers"
+    ],
+    "discounts": {
+      "Annual Membership": "20%",
+      "Student Discount": "15%"
+    }
+  }
+]

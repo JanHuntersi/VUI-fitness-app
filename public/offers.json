@@ -1,0 +1,33 @@
+{
+    "offers": [
+      {
+        "name": "Free Trial",
+        "description": "Experience our service with a no-cost, no-commitment, and fully-featured free trial. Enjoy all the benefits of our platform for a limited time, absolutely free. Explore our features, discover the value we provide, and decide whether we're the right fit for you. Start your journey today without any financial commitment.",
+        "message": "",
+        "select_type": "none",
+        "price": 0
+      },
+      {
+        "name": "Daily Pass",
+        "description": "Enjoy a single day of access to our services with a Daily Pass. Get full access to our platform for 24 hours, allowing you to make the most of a specific day or try out our services on a temporary basis. Ideal for short-term needs or testing our services for a day.",
+        "message":"Select the date you want to start your Daily Pass",
+        "select_type": "date",
+        "price": 10
+      },
+      {
+        "name": "Basic Annual Membership",
+        "description": "Invest in your future with our Basic Annual Membership. Secure a full year of uninterrupted access to our basic services, ensuring you have the support and tools you need for an entire year. With this membership, you can enjoy our services without the hassle of monthly renewals, providing convenience and cost savings.",
+        "message":"Select the date you want to start your Basic Annual Membership",
+        "select_type": "date",
+        "price": 120
+      },
+      {
+        "name": "All in Monthly Membership",
+        "description": "Get the ultimate experience with our All-In Monthly plan. Gain unlimited access to all of our features and services on a monthly basis. Dive into a world of possibilities, making the most of our comprehensive offering without any long-term commitment. This plan ensures you have everything you need at your fingertips, month after month.",
+        "message":"Select the date you want to start your All-In Monthly plan",
+        "select_type": "date",
+        "price": 20
+      }
+    ]
+  }
+  

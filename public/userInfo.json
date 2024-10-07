@@ -1,0 +1,40 @@
+{
+  "userName": "John",
+  "name": "John",
+  "surname": "Doe",
+  "country": "Slovenia",
+  "description": "I'm an active gym goer. I dont do legs.",
+  "age": "22",
+  "bench": "150",
+  "squat": "220",
+  "deadlift": "180",
+  "weight": "90",
+  "workouts": {
+    "1": {
+      "name": "Push",
+      "exercises": {
+        "1": {
+          "name": "Chest press",
+          "sets": [12, 10, 8]
+        },
+        "2": {
+          "name": "Chest fly",
+          "sets": [12, 12, 12]
+        }
+      }
+    },
+    "2": {
+      "name": "Pull",
+      "exercises": {
+        "1": {
+          "name": "Pulldown",
+          "sets": [10, 10]
+        },
+        "2": {
+          "name": "BB Row",
+          "sets": [12, 10, 8]
+        }
+      }
+    }
+  }
+}
