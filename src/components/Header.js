@@ -30,11 +30,23 @@ export default function Header() {
                             className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                             Gyms
                         </a>
+                        <a
+                            onClick={() => {
+                                navigate("/homeAlternative");
+                            }}
+                            className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                            Gyms2
+                        </a>
 
                         <a onClick={() => {
                             navigate("/profile");
                         }} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                             Profile
+                        </a>
+                        <a onClick={() => {
+                            navigate("/profileAlternative");
+                        }} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                            Profile2
                         </a>
                         <a
                             onClick={() => {

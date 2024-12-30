@@ -12,15 +12,23 @@ import OfferInfo from './components/OfferInfo';
 import Header from './components/Header';
 import Payment from "./components/Payment";
 import Map from "./components/Map";
+import ProfileAlternative from './components/ProfileAlternative';
+import HomeAlternative from './components/HomeAlternative';
+import GymInfoAlternative from './components/GymInfoAlternative';
 
 const routes = [
   { path: '/register', element: <Registration /> },
   { path: '/login', element: <Login /> },
   { path: '/', element: (<><Header /> <Home /> </>), private: true },
+  { path: '/homeAlternative', element: (<><Header /> <HomeAlternative /> </>), private: true },
+  { path: '/gymAlternative/:gymId', element: (<><Header /> <GymInfoAlternative /> </>) },
+  
   { path: '/gym/:gymId', element: (<><Header /> <GymInfo /> </>) },
   { path: '/gym/:gymId/:offerId', element: (<><Header /> < OfferInfo /></>) },
+  { path: '/gymAlternative/:gymId/:offerId', element: (<><Header /> < OfferInfo /></>) },
   { path: '/profile', element: (<><Header /><Profile /></>), private: true },
   { path: "/map", element: (<><Header /><Map /> </>), private: true },
+  { path: '/profileAlternative', element: (<><Header /><ProfileAlternative /></>), private: true },
   { path: '/workout/:workoutId', element: <Workout />, private: true },
   { path: "/pay", element: <Payment />, private: true },
 ];
