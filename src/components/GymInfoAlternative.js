@@ -52,20 +52,8 @@ function GymInfoAlternative() {
         </p>
       </div>
       <div className="flex mt-4 pb-2 gap-2">
-        <ClockIcon className="h-6 w-6" aria-hidden="true" />
-        <p className="font-semibold">Opening Times:</p>
-      </div>
-      <div className="pl-4 w-1/2">
-        {Object.entries(gym.openingTimes).map(([day, time]) => (
-          <div key={day} className="flex justify-between">
-            <p>{day.charAt(0).toUpperCase() + day.slice(1)}:</p>
-            <p>{time}</p>
-          </div>
-        ))}
-      </div>
-      <div className="flex mt-4 pb-2 gap-2">
         <CurrencyEuroIcon className="h-6 w-6" aria-hidden="true" />
-        <p className="font-semibold">Gym Membership offers:</p>
+        <p className="font-semibold">Select your gym Membership offer:</p>
       </div>
       <ul className="pl-8 list-disc">
         {gym.offers.map((offer) => (
@@ -83,6 +71,19 @@ function GymInfoAlternative() {
           </Link>
         ))}
       </ul>
+      <div className="flex mt-4 pb-2 gap-2">
+        <ClockIcon className="h-6 w-6" aria-hidden="true" />
+        <p className="font-semibold">Opening Times:</p>
+      </div>
+      <div className="pl-4 w-1/2">
+        {Object.entries(gym.openingTimes).map(([day, time]) => (
+          <div key={day} className="flex justify-between">
+            <p>{day.charAt(0).toUpperCase() + day.slice(1)}:</p>
+            <p>{time}</p>
+          </div>
+        ))}
+      </div>
+
       <div className="flex mt-4 pb-2 gap-2">
         <TrophyIcon className="h-6 w-6" aria-hidden="true" />
         <p className="font-semibold">Equipment:</p>
