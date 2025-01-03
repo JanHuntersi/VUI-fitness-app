@@ -10,6 +10,13 @@ function Profile() {
   const { user } = useAuth();
   const [userData, setUserData] = useState(null);
 
+  useEffect(() => {
+    if (window.hj) {
+      console.log("Viewed profile for hotjar");
+      window.hj('event', 'viewed_profile');
+    }
+  }, []);
+
   const findUser = () => {
     const users = JSON.parse(localStorage.getItem('users')) || [];
     users.map((userItem) => {

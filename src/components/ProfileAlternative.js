@@ -10,6 +10,14 @@ function ProfileAlternative() {
   const { user } = useAuth();
   const [userData, setUserData] = useState(null);
 
+  useEffect(() => {
+    if (window.hj) {
+      console.log("Viewed profile_alternative for hotjar");
+      window.hj('event', 'viewed_profile_alternative');
+    }
+  }, []);
+
+
   const findUser = () => {
     const users = JSON.parse(localStorage.getItem('users')) || [];
     users.map((userItem) => {

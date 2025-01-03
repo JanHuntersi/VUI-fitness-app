@@ -15,6 +15,13 @@ function GymInfo() {
   const [hoveredOffer, setHoveredOffer] = useState(null);
 
   useEffect(() => {
+    if (window.hj) {
+      console.log("Viewed gyminfo for hotjar");
+      window.hj('event', 'viewed_gyminfo');
+    }
+  }, []);
+
+  useEffect(() => {
     fetch("/gyms.json", {
       headers: {
         "Content-Type": "application/json",

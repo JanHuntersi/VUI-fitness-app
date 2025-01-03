@@ -14,6 +14,14 @@ function GymInfoAlternative() {
   const [gym, setGym] = useState(null);
   const [hoveredOffer, setHoveredOffer] = useState(null);
 
+  
+  useEffect(() => {
+    if (window.hj) {
+      console.log("Viewed gyminfo_alternative for hotjar");
+      window.hj('event', 'viewed_gyminfo_alternative');
+    }
+  }, []);
+
   useEffect(() => {
     fetch("/gyms.json", {
       headers: {
