@@ -14,12 +14,12 @@ function GymInfo() {
   const [gym, setGym] = useState(null);
   const [hoveredOffer, setHoveredOffer] = useState(null);
 
-  useEffect(() => {
+  const loadHotjar = () => {
     if (window.hj) {
-      console.log("Viewed gyminfo for hotjar");
+      console.log("Viewed viewed_gyminfo for hotjar");
       window.hj('event', 'viewed_gyminfo');
     }
-  }, []);
+  } 
 
   useEffect(() => {
     fetch("/gyms.json", {
@@ -32,7 +32,8 @@ function GymInfo() {
       .then((data) => {
         const foundGym = data.find((g) => g.id === gymId);
         setGym(foundGym);
-      });
+      })
+      .then(()=> loadHotjar());
   }, [gymId]);
 
   if (!gym) return <div>Loading...</div>;

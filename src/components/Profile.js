@@ -10,13 +10,6 @@ function Profile() {
   const { user } = useAuth();
   const [userData, setUserData] = useState(null);
 
-  useEffect(() => {
-    if (window.hj) {
-      console.log("Viewed profile for hotjar");
-      window.hj('event', 'viewed_profile');
-    }
-  }, []);
-
   const findUser = () => {
     const users = JSON.parse(localStorage.getItem('users')) || [];
     users.map((userItem) => {
@@ -42,6 +35,13 @@ function Profile() {
     }
   };
 
+  const loadHotjar = () => {
+    if (window.hj) {
+      console.log("Viewed viewed_profile for hotjar");
+      window.hj('event', 'viewed_profile');
+    }
+  } 
+
   useEffect(() => {
     const storedUserInfo = localStorage.getItem('userInfo');
     if (storedUserInfo) {
@@ -51,6 +51,7 @@ function Profile() {
       fetchData();
     }
     findUser();
+    loadHotjar();
   }, []);
 
   const handleChange = (e) => {
